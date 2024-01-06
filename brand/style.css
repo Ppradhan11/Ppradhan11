@@ -2,6 +2,7 @@
     --maincolor:rgb(26, 82, 26);
     --bordercolor:grey;
     --darkwhite:rgba(0, 0, 0, 0.18);
+    --toppagecolor: rgb(3, 5, 3);
 }
 *{
     box-sizing: border-box;
@@ -21,29 +22,30 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--darkwhite);
 }
-
-.head {
-    width: 100%;
+.mainhead{
     display: flex;
-    background-color: rgb(3, 5, 3);
-    padding-left: 180px;
-    color: rgb(245, 244, 244);
+    justify-content: space-between;
+    background-color: var(--toppagecolor);
     position: sticky;
     top: 0;
     z-index: 1;
+    padding: 0px 36px;
 }
-.head img{
-    width: 180px;
+.head_logo img{
+    width: 130px;
     height: fit-content;
     padding: 20px;
 }
-.head ul{
-    margin-left: 155px;
+.head {
+    display: flex;
+    background-color: var(--toppagecolor);
+    color: rgb(243, 214, 214);
 }
 .head li{
     list-style-type: none;
-    padding: 12px 18px;
-    line-height: 2.5rem;
+    margin-top: 16px;
+    padding: 12px 18px 0px;
+    line-height: 1rem;
 }
 .head li:hover{
     background-color: var(--maincolor);
@@ -65,10 +67,6 @@ body{
     font-size: 2rem;
     font-weight: 1000;
     
-}
-.hero img{
-    width: 100%;
-    height: 500px;
 }
 
 
@@ -110,6 +108,9 @@ body{
 }
 .socialsites li{
     padding: 6px;
+}
+.socialsites img{
+    width: 24px;
 }
 .footerside_head{
     display: flex;
