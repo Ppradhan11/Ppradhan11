@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career</title>
+    <link rel="stylesheet" href="career.css">
+
+</head>
+<body>
+    <main>
+        <header >
+         <div class="navbar">
+           <div class="logo">
+           <a href="../Home/index.html"><img src="../img/orave.png" alt=""></a>
+           </div>
+           <div class="menu_icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+               <ul class="head">
+                 <li class="nav_list"><a href="../Home/index.html#aboutus">About Us</a></li>
+                 <li class="nav_list"><a href="../Services/services.html">Services</a></li>
+                 <li class="nav_list"><a href="career.html">Carrer</a></li>
+                 <li class="nav_list"><a href="../Home/index.html#contact">Contact</a></li>
+               </ul>
+         </div>
+            </header> 
+
+            <section class="container_body">
+            <section>
+                <div class="active">
+                    <div class="text">
+                    <p>Designation :</p>
+                    <p id="slot">Slot Remaning :</p>
+                    </div>
+                    <hr>
+                    <div class="in_container"><p>Requirements</p></div>
+                    <div class="in_container"><p>Responsibilities</p></div>
+                </div>
+    
+                <div class="active">
+                    <div class="text">
+                    <p>Designation :</p>
+                    <p id="slot">Slot Remaning :</p>
+                    </div>
+                    <hr>
+                    <div class="in_container"><p>Requirements</p></div>
+                    <div class="in_container"><p>Responsibilities</p></div>
+                </div>
+               </section>
+            </section>         
+        </main>
+        <!-- Main is kept here as to use sticky header upto 
+         this place. -->
+
+         <section class="container_body">
+           <section>
+            <div class="passive">
+                    <div class="text">
+                    <p>Designation :</p>
+                    <p id="slot">Slot Remaning :</p>
+                    </div>
+                    <hr>
+                    <div class="in_container"><p>Requirements</p></div>
+                    <div class="in_container"><p>Responsibilities</p></div>
+                </div>
+                <div class="passive">
+                    <div class="text">
+                    <p>Designation :</p>
+                    <p id="slot">Slot Remaning :</p>
+                    </div>
+                    <hr>
+                    <div class="in_container"><p>Requirements</p></div>
+                    <div class="in_container"><p>Responsibilities</p></div>
+                </div>
+            </div>
+           </section>
+        </section>
+        
+     <footer>
+        <div class="social">
+            <h3>CONNECT THROUGH SOCIAL HANDLES</h3>
+            <ul class="socialsite">
+            <li><a href="https://www.facebook.com/OraveTech"><img src="../img/facebook.png" alt=""></a></li>
+            <li><a href="https://www.twitter.com/OraveTech"><img src="../img/twitter.png" alt=""></a></li>
+            <li><a href=""><img src="../img/instagram.png" alt=""></a></li>
+            </ul>
+         </div>
+      <div class="footer_container">
+      <ul>
+      <li class="nav_list_bottom"><a href="../Home/index.html">Home</a></li>
+      <li class="nav_list_bottom"><a href="../Home/index.html#aboutus">About Us</a></li>
+      <li class="nav_list_bottom"><a href="../Services/services.html">Services</a></li>
+      <li class="nav_list_bottom"><a href="../Carrer/career.html">Carrer</a></li>
+      <li class="nav_list_bottom"><a href="../Home/index.html#contact">Contact</a></li>
+      </ul>
+      </div>
+      
+      <div class="copyright_text"><p>&copy Copyright 2024 Orave Techonologies.</p></div>
+      </footer>
+     <script >
+        function toggleMenu() {
+        var navList = document.querySelector('.head');
+        navList.classList.toggle('show');
+        }
+     </script>
+</body>
+</html>

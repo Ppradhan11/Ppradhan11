@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link rel="stylesheet" href="servicestyle.css">
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="../Home/index.html"><img src="../img/orave.png" alt=""></a>
+        </div>
+        <div class="menu_icon" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="head">
+          <li class="nav_list"><a href="../home/index.html#aboutus">About Us</a></li>
+          <li class="nav_list"><a href="services.html">Services</a></li>
+          <li class="nav_list"><a href="../Carrer/career.html">Career</a></li>
+          <li class="nav_list"><a href="../Home/index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+   <div class="bulletin">
+      <h1>We Prioritize in better experience for customer through professional support. 
+        <br>
+        Services We Offer: </h1>
+       <div class="bulletin_points">
+        <div class="bullet"><a href="#webhost">Web<br>Hosting</a></div>
+        <div class="bullet"><a href="#domain">Domain<br>Registration</a></div>
+        <div class="bullet"><a href="#online">Online<br>Marketing</a></div>
+      </div>
+        <div class="bulletin_points">
+        <div class="bullet" onclick="softwaredev()"><p>Software<br>Development</p></div>
+        <div class="bullet" onclick="mobileappdev()"><p>Mobile App<br>Development</p></div>
+        <div class="bullet" onclick="webdev()"><p>Web<br>Development</p></div>
+      </div>
+      
+     </div>
+
+     
+    <section>
+      <div class="box" id="webhost">
+        <div class="img">
+          <img src="facebook.png" alt="">
+        </div>
+        <div class="text" >
+          <h2 >Web Hosting</h2>
+          <p>Orave offers a web hosting service on a very fast and reliable web server equipped with high-end hardware configuration. Our customers can always rely on the reliability of our web servers and professionalism of the customer support team. Our servers also have pre-installed tools that organizations can benefit from.</p>
+        </div>
+      </div>
+
+
+      <div class="box" id="domain">
+        <div class="text">
+          <h2>Domain Registration</h2>
+          <p>Domain name is the medium you connect with your customers. It needs to be simple and catchy, while representing your business and preserving your brand. We offer domain registration service at a very competitive price. Click here to begin your domain search or contact us for any assistance from our experts.</p>
+        </div>
+        <div class="img">
+          <img src="instagram.png" alt="">
+        </div>
+      </div>
+
+      <div class="box" id="online">
+        <div class="img">
+          <img src="facebook.png" alt="">
+        </div>
+        <div class="text" id="online_content">
+          <h2>Online Marketing</h2>
+          <p>Is your business struggling to reach out to the potential customers or do you just feel like your business is not getting enough positive online attention? Our team of experienced online marketers can help you increase your online presence and keep you ahead in the game by using several latest online marketing tools.</p>
+        </div>
+      </div>
+
+
+      <div class="box" id="softwaredev_content">
+        <div class="text">
+          <p></p>
+          <h2>Software Development</h2>
+          <p>If your business is in need of a customized software, we can help you build one! Our enthusiastic team of designers and developers are always looking to work on an exciting and challenging project. Feel free to contact us to discuss about your software needs and take advantage of our free consultation service.</p>
+        </div>
+        <div class="img">
+          <img src="software.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="box" id="mobileappdev_content">
+         <div class="img">
+          <img src="mobileappdev.jpg" alt="">
+         </div>
+        <div class="text">
+          <h2>Mobile App Development</h2>
+          <p>If your business does not have a mobile app yet, it is still not too late to get one. Having a personalized mobile app representing your business improves your customer’s accessibility to your services and products. Consult with our experts to see if having an app for your business will help in its growth.</p>
+         </div>
+      </div>
+     
+      <div class="box" id="webdev_content">
+        <div class="text">
+          <h2>Web Development</h2>
+          <p>To stay ahead in market, you will need an online presence through a website that will act as a medium for your customers to connect with you. A responsive and appealing website portrays richness of the services and products you offer. We can help you develop a state-of-the-art website for your business.</p>
+        </div>
+        <div class="img">
+          <img src="webdev.jpg" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <section>
+      <div class="message">
+        <h2>Grab our services and increase your productivity.</h2>
+      </div>
+    </section>
+
+ 
+    
+
+
+  
+  <footer>
+    <div class="social">
+      <h3>CONNECT THROUGH SOCIAL HANDLES</h3>
+      <ul class="socialsite">
+        <li><a href="https://www.facebook.com/OraveTech"><img src="../img/facebook.png" alt=""></a></li>
+        <li><a href="https://www.twitter.com/OraveTech"><img src="../img/twitter.png" alt=""></a></li>
+        <li><a href=""><img src="../img/instagram.png" alt=""></a></li>
+      </ul>
+    </div>
+    <div class="footer_container">
+      <ul>
+        <li class="nav_list_bottom"><a href="../Home/index.html">Home</a></li>
+        <li class="nav_list_bottom"><a href="../Home/index.html#aboutus">About Us</a></li>
+        <li class="nav_list_bottom"><a href="../Services/services.html">Services</a></li>
+        <li class="nav_list_bottom"><a href="../Carrer/career.html">Carrer</a></li>
+        <li class="nav_list_bottom"><a href="../Home/index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="copyright_text">
+      <p> &copy; Copyright 2024 Orave Techonologies.</p>
+    </div>
+  </footer>
+
+
+
+
+  <script>
+
+    function toggleMenu() {
+      var navList = document.querySelector('.head');
+      navList.classList.toggle('show');
+    }
+
+          
+         function softwaredev() {
+           const element = document.getElementById("softwaredev_content");
+           element.scrollIntoView(true);
+          }
+          
+
+         function mobileappdev() {
+          const element = document.getElementById("mobileappdev_content");
+          element.scrollIntoView(true);
+         }
+        
+          function webdev(){
+            const element = document.getElementById("webdev_content");
+            element.scrollIntoView(true);
+        }
+
+  </script>
+</body>
+
+</html>
