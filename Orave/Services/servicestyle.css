@@ -222,10 +222,6 @@ main .container .flyup p {
   text-align: center;
   border-radius: 10px 2px;
 }
-.bulletin .bulletin_points .bullet:hover {
-  background-image: url(webdev.jpg);
-  background-size: contain;
-}
 @media (min-width: 300px) and (max-width: 800px) {
   .bulletin .bulletin_points .bullet {
     width: 100%;
@@ -237,6 +233,7 @@ main .container .flyup p {
   padding-top: 55px;
   font-size: larger;
   font-weight: 600;
+  /* this is sheing in the normal display */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(webdev.jpg);
   background-size: cover;
 }
@@ -270,6 +267,17 @@ main .container .flyup p {
   .bulletin .bulletin_points .bullet p:hover {
     border-radius: 10px;
   }
+}
+.bulletin .bulletin_points #webHost {
+  background-image: url(software.png);
+}
+.bulletin .bulletin_points #webHost:hover {
+  background-image: url(mobileappdev.jpg);
+  background-size: contain;
+}
+.bulletin .bulletin_points #webHost a {
+  background-image: url(mobileappdev.jpg);
+  background-size: cover;
 }
 
 section {
