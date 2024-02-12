@@ -1,14 +1,21 @@
 :root{
     --maincolor:rgb(12, 90, 118);
     --bordercolor:grey;
+<<<<<<< HEAD
     --darkwhite:rgba(235, 232, 232, 0.825);
+=======
+    --darkwhite:rgba(221, 221, 221, 0.18);
+>>>>>>> dee013c69d3867879d3bbcaff4f8c5aa0268c448
     --herotextcolor: rgb(233, 169, 8);
     --toppagecolor: rgb(0, 20, 30);
     --textcolor: rgb(248, 248, 255); 
     --black: rgb(0, 12, 25);
     --bodycolor: rgb(7, 73, 111);
+<<<<<<< HEAD
     --servicesbg: rgba(0, 0, 20, 0.9);
     --formfirstcolor: rgb(0, 255, 255);
+=======
+>>>>>>> dee013c69d3867879d3bbcaff4f8c5aa0268c448
 }
 *{
     box-sizing: border-box;
@@ -43,6 +50,9 @@ body{
     width: 150px;
     height: 66px;
     padding: 20px;
+}
+.head_logo img:hover{
+    transform: scale(1.2);
 }
 .head {
     display: flex;
@@ -81,6 +91,7 @@ body{
     font-weight: 600;    
 }
 
+<<<<<<< HEAD
 
 
 
@@ -91,6 +102,9 @@ body{
 
 
 .aboutUs{
+=======
+.distributor_container{
+>>>>>>> dee013c69d3867879d3bbcaff4f8c5aa0268c448
     background-color: var(--bodycolor);
     padding: 15px 70px;
     display: flex;
@@ -99,6 +113,7 @@ body{
 }
 .combo{
     border: 1px solid rgb(21, 48, 48);
+<<<<<<< HEAD
     width: 400px;
     height: 280px;
     background-color: var(--darkwhite);
@@ -163,6 +178,30 @@ body{
     height: 180px;
     border-block: 1px solid var(--bordercolor);
 }
+=======
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--textcolor);
+    height: 180px;
+    border-block: 1px solid var(--bordercolor);
+}
+>>>>>>> dee013c69d3867879d3bbcaff4f8c5aa0268c448
 .socialsite {
     display: flex;
 }
@@ -184,6 +223,7 @@ footer{
     background-color: black;
     color: var(--textcolor);
 }
+<<<<<<< HEAD
 
 
 
@@ -300,6 +340,11 @@ input:active{
 .copyright_text{
     color: var(--textcolor);
 
+=======
+.copyright_text{
+    color: var(--textcolor);
+    height: 85%;
+>>>>>>> dee013c69d3867879d3bbcaff4f8c5aa0268c448
 }
 
 .footer_container ul{
@@ -313,5 +358,8 @@ input:active{
     background-color: var(--maincolor);
     transition: 0.3s linear;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> dee013c69d3867879d3bbcaff4f8c5aa0268c448
